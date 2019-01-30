@@ -20,10 +20,10 @@ The dependencies are really minimal. Here are some of them:
 
 You have three four scripts:
 
-- start: run the application using webpack-dev-server.
-- build:css execute gulp tasks to compile and minify styles.
-- build:js execute webpack to compile typescript and react code.
-- build: execute two scripts above.
+- `start`: run the application using webpack-dev-server.
+- `build:css`: execute gulp tasks to compile and minify styles.
+- `build:js`: execute webpack to compile typescript and react code.
+- `build`: execute two scripts above.
 
 **Note:** builds will generate sourcemaps.
 
