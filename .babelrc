@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "@babel/env",
+    ["@babel/typescript", {
+      "isTSX": true,
+      "allExtensions": true
+    }],
+    "@babel/react"
+  ],
+  "plugins": [
+    [
+      "styled-jsx/babel",
+      {
+        "plugins": [
+          "styled-jsx-plugin-postcss"
+        ]
+      },
+    ],
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread"
+  ]
+}
